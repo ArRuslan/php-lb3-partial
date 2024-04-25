@@ -1,7 +1,7 @@
 <?php
 
 if(count($argv) < 3) {
-    die("Usage: php $argv[0] input.txt output.html\nOR\n       php $argv[0] input.html output.txt");
+    die("Usage: php $argv[0] input.txt output.html\nOR     php $argv[0] input.html output.txt\n");
 }
 
 $in_file = $argv[1];
